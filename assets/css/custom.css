@@ -1,0 +1,68 @@
+/* Style the body background and text color */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style the page container */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+/* Style form fields */
+.field {
+    margin-bottom: 20px;
+}
+
+/* Style radio buttons */
+.ui.radio.checkbox label {
+    font-weight: normal;
+}
+
+/* Style buttons */
+.ui.primary.button {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.ui.button {
+    background-color: #ccc;
+    color: #333;
+}
+
+/* Style alerts */
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Style radio buttons for program selection */
+.ui.radio.checkbox input[type="radio"]:checked+label::before {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+/* Additional styles can be added here */
+
